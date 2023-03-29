@@ -6,11 +6,12 @@
   },
   "scripts": {
     "start": "node app.js",
-    "build":"node app.js",
+    "build": "npx build-node-app app-name",
     "dev": "nodemon app.js",
     "start:prod": "NODE_ENV=production nodemon app.js"
   },
   "dependencies": {
+    "build-node-app": "^1.6.7",
     "cors": "^2.8.5",
     "ejs": "0.8.3",
     "express": "3.2.0",
