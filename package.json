@@ -2,17 +2,20 @@
   "name": "metaphorpsum",
   "version": "0.0.2",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "build":"netlify deploy --prod"
   },
   "dependencies": {
-    "build-node-app": "^1.6.7",
     "cors": "^2.8.5",
     "ejs": "0.8.3",
     "express": "3.2.0",
     "less-middleware": "2.0.1",
     "lodash": "2.4.1",
+    "netlify-cli": "^13.2.2",
+    "netlify-lambda": "^2.0.16",
     "randy": "1.5.1",
-    "sentencer": "*"
+    "sentencer": "*",
+    "serverless-http": "^3.2.0"
   },
   "main": "app.js"
 }
