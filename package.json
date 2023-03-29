@@ -3,7 +3,6 @@
   "version": "0.0.2",
   "scripts": {
     "start": "node app.js",
-    "build":"netlify deploy --prod"
   },
   "dependencies": {
     "cors": "^2.8.5",
