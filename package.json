@@ -5,6 +5,7 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "build-node-app": "^1.6.7",
     "cors": "^2.8.5",
     "ejs": "0.8.3",
     "express": "3.2.0",
